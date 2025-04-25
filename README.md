@@ -18,6 +18,8 @@ By running efficient, open-source models locally, we aim to make LLM usage scala
 Disclaimer:
 All files and code in this repository utilise open-source tools, models, and images.
 
+<img width="951" alt="Screenshot 2025-04-25 at 10 47 22 AM" src="https://github.com/user-attachments/assets/eb38930f-4e1e-4465-a296-17b984fd447f" />
+
 ----------------------------------------------
 Please follow the below steps to utilise Gradio Code:
 
