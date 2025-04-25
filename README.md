@@ -34,9 +34,11 @@ Step 4: Go to following HuggingFace URL and download model files. Save in folder
 
 Step 5: Go to Text file `cd Text`
 
-Step 6: Run `python gradio_ui.py`. Sample images is found in "Image" folder.
+Step 6: Replace all the filepaths in gradio_ui.py with your file path.
 
-Step 7: Deactivate virtual environment when done `Deactivate`
+Step 7: Run `python gradio_ui.py`. Sample images is found in "Image" folder.
+
+Step 8: Deactivate virtual environment when done `Deactivate`
 
 ----------------------------------------------
 Code Explanation:
