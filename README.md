@@ -1,2 +1,49 @@
-# yeozs-Hackathon-On-Device-LLM
-yeozs/Hackathon-On-Device-Large-Language-Models
+# LLM Efficiency and Cost at Scale — A Case for On-Device Models
+In The Coal Question (1865), English economist William Stanley Jevons introduced what is now known as Jevons Paradox: as technological efficiency increases, resource usage tends to rise instead of fall, driven by greater demand.
+
+This paradox is especially relevant in the age of Generative AI. While the cost per token for Large Language Models (LLMs) has decreased significantly over the years, overall usage — and therefore total cost — continues to grow.
+
+At our company, this trend is evident. As adoption increases, so do API token costs and infrastructure demands, particularly when relying on private LLM servers to meet internal security requirements.
+
+We believe fine-tuned, on-device LLMs present a powerful opportunity to:
+
+- Reduce reliance on costly private servers
+
+- Lower API token consumption
+
+- Maintain compliance with enterprise security standards
+
+By running efficient, open-source models locally, we aim to make LLM usage scalable, secure, and cost-effective.
+
+Disclaimer:
+All files and code in this repository utilise open-source tools, models, and images.
+
+----------------------------------------------
+Please follow the below steps to utilise Gradio Code:
+
+Step 1: create a virtual environment `python3 -m venv venv`
+
+Step 2: Activate virtual environment `source venv/bin/activate`
+
+Step 3: Install python requirements `pip install -r requirements.txt`
+
+Step 4: Go to following HuggingFace URL and download model files. Save in folder called "model": https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct
+
+Step 5: Go to Text file `cd Text`
+
+Step 6: Run `python gradio_ui.py`. Sample images is found in "Image" folder.
+
+Step 7: Deactivate virtual environment when done `Deactivate`
+
+----------------------------------------------
+Code Explanation:
+
+Code utilises RAG - Retrieval Augmented Generation. 
+
+1) "Images" file contains a database of Aircraft Maintenance defect images stored in image embedding form.
+
+2) When a new image is uploaded in Gradio, the new image is matched to closest hit in image database.
+
+3) The maintenance description text housed together with image file paths will  be retrieved. Together with user input text in Gradio, both texts are passed as input to LLM (SmolVLM-500M).
+
+4) LLM Response is displayed in Gradio App.
