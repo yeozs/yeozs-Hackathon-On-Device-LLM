@@ -1,8 +1,8 @@
 # LLM Efficiency and Cost at Scale — A Case for On-Device Models
 
-Technological advancement are supposed to make resources more efficient to use. Yet, as the cost of using a resource drops, overall demand increases, causing total resource consumption to rise. Welcome to Jevons Paradox, named after English economist William Stanley Jevons!
+In his 1865 work "The Coal Question", English economist William Stanley Jevons observed that the increased efficiency of coal-powered steam engines did not lead to a reduction in coal consumption. On the contrary, as technological advancements made the per unit use of coal more cost-effective, the overall demand for coal actually rose, resulting in greater total consumption and cost. This counterintuitive outcome, where improved efficiency leads to increased resource use and cost, is now known as Jevons Paradox.
 
-Jevons paradox is especially relevant in the age of Generative AI. While the cost per token for Large Language Models (LLMs) has decreased significantly over the years, overall usage — and therefore total cost — continues to grow.
+This paradox is especially relevant in the age of Generative AI. While the cost per token for Large Language Models (LLMs) has decreased significantly over the years, overall usage — and therefore total cost — continues to grow.
 
 At our company, this trend is evident. As adoption increases, so do total API token costs and infrastructure demands, particularly when relying on private LLM servers to meet internal security requirements.
 
