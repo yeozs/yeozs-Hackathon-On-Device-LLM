@@ -28,7 +28,7 @@ Please follow the below steps to utilise Gradio Code:
 
 Step 1: Download all files in this Github Repository into folder called RAG
 
-Step 2: create a virtual environment `python3 -m venv venv`
+Step 2: create a virtual environment `python -m venv venv`
 
 Step 3: Activate virtual environment `source venv/bin/activate`
 
