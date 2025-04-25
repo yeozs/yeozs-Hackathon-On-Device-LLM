@@ -25,21 +25,23 @@ All files and code in this repository utilise open-source tools, models, and ima
 ----------------------------------------------
 Please follow the below steps to utilise Gradio Code:
 
-Step 1: create a virtual environment `python3 -m venv venv`
+Step 1: Download all files in folder called RAG
 
-Step 2: Activate virtual environment `source venv/bin/activate`
+Step 2: create a virtual environment `python3 -m venv venv`
 
-Step 3: Install python requirements `pip install -r requirements.txt`
+Step 3: Activate virtual environment `source venv/bin/activate`
 
-Step 4: Go to following HuggingFace URL and download model files. Save in folder called "model": https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct
+Step 4: Install python requirements `pip install -r requirements.txt`
 
-Step 5: Go to Text file `cd Text`
+Step 5: Go to following HuggingFace URL and download model files. Save in folder called "model": https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct
 
-Step 6: Replace all the filepaths in gradio_ui.py with your file path.
+Step 6: Go to Text file `cd Text`
 
-Step 7: Run `python gradio_ui.py`. Sample images is found in "Image" folder.
+Step 7: Replace all the filepaths in gradio_ui.py with your current RAG file path. To check RAG file path, go to RAG folder and use `pwd`.
 
-Step 8: Deactivate virtual environment when done `Deactivate`
+Step 8: Run `python gradio_ui.py`. Sample images is found in "Image" folder.
+
+Step 9: Deactivate virtual environment when done `Deactivate`
 
 ----------------------------------------------
 Code Explanation:
