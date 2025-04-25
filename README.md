@@ -1,5 +1,5 @@
 # LLM Efficiency and Cost at Scale — A Case for On-Device Models
-In The Coal Question (1865), English economist William Stanley Jevons introduced the Jevon's Paradox: 
+In The Coal Question (1865), English economist William Stanley Jevons introduced the Jevons Paradox: 
 Technological advancement makes a resources more efficient to use. Yet, as the cost of using the resource drops, overall demand increases, causing total resource consumption to rise.
 
 This paradox is especially relevant in the age of Generative AI. While the cost per token for Large Language Models (LLMs) has decreased significantly over the years, overall usage — and therefore total cost — continues to grow.
