@@ -1,8 +1,8 @@
 # LLM Efficiency and Cost at Scale — A Case for On-Device Models
 
-In his 1865 work "The Coal Question", English economist William Stanley Jevons observed that the increased efficiency of coal-powered steam engines did not lead to a reduction in coal consumption. On the contrary, as technological advancements made the per unit use of coal more cost-effective, the overall demand for coal actually rose, resulting in greater total consumption and cost. This counterintuitive outcome, where improved efficiency leads to increased resource use and cost, is now known as Jevons Paradox.
+In his 1865 work "The Coal Question", English economist William Stanley Jevons observed that the increased efficiency of coal-powered steam engines did not correspond with a reduction in coal consumption. On the contrary, as technological advancements made the per unit use of coal more cost-effective, the overall demand for coal actually rose, resulting in greater total consumption and cost. This counterintuitive outcome, where improved efficiency leads to increased resource use and cost, is now known as Jevons Paradox.
 
-This paradox is especially relevant in the age of Generative AI. While the cost per token for Large Language Models (LLMs) has decreased significantly over the years, overall usage — and therefore total cost — continues to grow.
+This oddity is especially relevant in the age of Generative AI. While the per token cost for Large Language Models (LLMs) has decreased significantly over the years, overall usage — and therefore total cost — continues to grow.
 
 At our company, this trend is evident. As adoption increases, so do total API token costs and infrastructure demands, particularly when relying on private LLM servers to meet internal security requirements.
 
@@ -14,7 +14,7 @@ We believe fine-tuned, on-device LLMs present a powerful opportunity to:
 
 - Maintain compliance with enterprise security standards
 
-By running efficient, open-source models locally, we aim to make LLM usage scalable, secure, and cost-effective.
+By running efficient, open-source models locally, we aim to make LLM usage cost-effective, secure, and scalable.
 
 Disclaimer:
 All files and code in this repository utilise open-source tools, models, and images.
