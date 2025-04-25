@@ -2,7 +2,7 @@
 
 <img width="951" alt="Screenshot 2025-04-25 at 10 47 22 AM" src="https://github.com/user-attachments/assets/eb38930f-4e1e-4465-a296-17b984fd447f" />
 
-*Figure 1: Gradio Application running on Mac using offline SmolVLM-500M model*
+<p align="center"> Figure 1: Gradio Application running on Mac using offline SmolVLM-500M model </p>
 
 In The Coal Question (1865), English economist William Stanley Jevons introduced what is now known as Jevons Paradox: as technological efficiency increases, resource usage tends to rise instead of fall, driven by greater demand.
 
