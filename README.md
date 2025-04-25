@@ -1,9 +1,4 @@
 # LLM Efficiency and Cost at Scale — A Case for On-Device Models
-
-<img width="951" alt="Screenshot 2025-04-25 at 10 47 22 AM" src="https://github.com/user-attachments/assets/eb38930f-4e1e-4465-a296-17b984fd447f" />
-
-<p align="center"> Figure 1: Gradio Application running on Mac using offline SmolVLM-500M model </p>
-
 In The Coal Question (1865), English economist William Stanley Jevons introduced what is now known as Jevons Paradox: as technological efficiency increases, resource usage tends to rise instead of fall, driven by greater demand.
 
 This paradox is especially relevant in the age of Generative AI. While the cost per token for Large Language Models (LLMs) has decreased significantly over the years, overall usage — and therefore total cost — continues to grow.
@@ -22,6 +17,10 @@ By running efficient, open-source models locally, we aim to make LLM usage scala
 
 Disclaimer:
 All files and code in this repository utilise open-source tools, models, and images.
+
+<img width="951" alt="Screenshot 2025-04-25 at 10 47 22 AM" src="https://github.com/user-attachments/assets/eb38930f-4e1e-4465-a296-17b984fd447f" />
+
+<p align="center"> Figure 1: Gradio Application running on Mac using offline SmolVLM-500M model </p>
 
 ----------------------------------------------
 Please follow the below steps to utilise Gradio Code:
