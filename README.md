@@ -57,4 +57,4 @@ Code utilises RAG - Retrieval Augmented Generation.
 4) LLM Response is displayed in Gradio App.
 ----------------------------------------------
 Contributors:
-Dr Shoeb Shaikh, Mr Rahul Sharma, Mr Yeo Zuosheng, Mr Eric Cundomanik
+Dr Shoeb Shaikh, Mr Rahul Sharma, Mr Yeo Zuosheng, Mr Erik Cundomanik
