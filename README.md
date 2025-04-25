@@ -55,3 +55,9 @@ Code utilises RAG - Retrieval Augmented Generation.
 3) The maintenance description text housed together with image file paths will  be retrieved. Together with user input text in Gradio, both texts are passed as input to LLM (SmolVLM-500M).
 
 4) LLM Response is displayed in Gradio App.
+----------------------------------------------
+Contributors:
+Dr Shoeb Shaikh
+Mr Rahul Sharma
+Mr Yeo Zuosheng
+Mr Eric Cundomanik
